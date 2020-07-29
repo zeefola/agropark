@@ -12,7 +12,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-title">
-                                    <h5>+123 456 78910 / 11</h5>
+                                    <h5> {{ config('app.phone_ikoyi') }} </h5>
                                     <h4>Have a question? call us now</h4>
                                 </div>
                             </div><!-- featured-icon-box end-->
@@ -28,7 +28,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-title">
-                                    <h5>info@domainname.com</h5>
+                                    <h5> {{ config('app.email_1') }}</h5>
                                     <h4>Need support? Drop us an email</h4>
                                 </div>
                             </div><!-- featured-icon-box end-->
@@ -58,17 +58,17 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget widget_text clearfix">
-                            <h3 class="widget-title">About Delmont</h3>
+                            <h3 class="widget-title">About Agropark</h3>
                             <div class="textwidget widget-text">
-                                Our Clinic has grown to provide a world class facility for the clinic advanced restorative dentistry.
-                                <br><br>We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.
+                            Agro-Park is primarily a farm management company involved in the end to end of agricultural value chain
+                               
                                 <br><br>
                                 <div class="social-icons social-hover">
                                     <ul class="list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-gplus"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                        <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href=" {{ config('app.facebook') }} " data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-twitter"><a class="tooltip-top" target="_blank" href="{{ config('app.twitter') }} " data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-instagram"><a class=" tooltip-top" target="_blank" href="{{ config('app.instagram') }} " data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -78,50 +78,35 @@
                         <div class="widget widget_nav_menu clearfix">
                            <h3 class="widget-title">Quick Links</h3>
                             <ul id="menu-footer-quick-links">
-                                <li><a href="index.html">Make Appointments</a></li>
-                                <li><a href="services-1.html">Before & After</a></li>
-                                <li><a href="about-1.html">Customer Treatments</a></li>
-                                <li><a href="single-style-1.html">Our Doctors Team</a></li>
-                                <li><a href="blog.html">Departments Services</a></li>
-                                <li><a href="our-team.html">About our Clinic</a></li>
-                                <li><a href="faq.html">Contact Us</a></li>
+                                <li><a href="/about-us">About Us</a></li>
+                                <li><a href="/contact-us">Contact Us</a></li>
+                                <li><a href="/asset-management">Farm Management</a></li>
+                                <li><a href="/agribusiness-academy">Agribusiness Academy</a></li>
+                                <li><a href="/gallery">Gallery</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
-                        <div class="widget style2 widget-out-link clearfix">
-                           <h3 class="widget-title">Latest News</h3>
-                            <ul class="widget-post ttm-recent-post-list">
-                                <li>
-                                    <a href="single-blog.html"><img src="images/blog/01.jpg" alt="post-img"></a>
-                                    <span class="post-date">April 1, 2019</span>
-                                    <a href="single-blog.html">How much aspirin to take for stroke</a>
-                                </li>
-                                <li>
-                                    <a href="single-blog.html"><img src="images/blog/02.jpg" alt="post-img"></a>
-                                    <span class="post-date">April 1, 2019</span>
-                                    <a href="single-blog.html">Implant Surgical equipment technology</a>
-                                </li>
-                                <li>
-                                    <a href="single-blog.html"><img src="images/blog/03.jpg" alt="post-img"></a>
-                                    <span class="post-date">April 05, 2019</span>
-                                    <a href="single-blog.html">The Benefits of Middle-Age Fitness</a>
-                                </li>
+                        <div class="widget widget_nav_menu clearfix">
+                           <h3 class="widget-title">Featured Links</h3>
+                            <ul id="menu-footer-quick-links">
+                                <li><a href="/https://www.app.agropark.ng/#/">Portal</a></li>
+                                <li><a href="/https://blog.agropark.ng/">Blog</a></li>
+                               
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget widget_nav_menu menu-footer-services-menu clearfix">
-                            <h3 class="widget-title">Our Services</h3>
+                            <h3 class="widget-title">About Us</h3>
                             <ul id="menu-footer-services-menu" class="menu">
-                                <li><a href="#">Surgery</a></li>
-                                <li><a href="#">Psychological</a></li>
-                                <li><a href="#">Cardiology</a></li>
-                                <li><a href="#">Orthopedics</a></li>
-                                <li><a href="#">Pediatric</a></li>
-                                <li><a href="#">Oncology</a></li>
-                                <li><a href="#">Anesthesiology</a></li>
-                                <li><a href="#">Dermatology</a></li>
+                                <li><a href="/our-team">Our Team</a></li>
+                                <li><a href="/partners">Partners</a></li>
+                                <li><a href="/gallery">Gallery</a></li>
+                                <li><a href="/bulletin">Bulletin</a></li>
+                                <li><a href="/brochure">Brochure</a></li>
+                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/graduate-trainee">Careers</a></li>
                             </ul>
                         </div>
                         <div class="widget widget-text clearfix">
@@ -142,15 +127,10 @@
             <div class="container">
                 <div class="row copyright">
                     <div class="col-md-12">
-                        <span>Copyright © 2019 Delmont Theme by <a href="https://themetechmount.com/">ThemetechMount</a></span>
+                        <span>Copyright © {{ date("Y") }}  <a href="/">AgroPark Dev. Company Ltd
+</a></span>
                     </div>
-                    <div class="col-md-12">
-                        <ul id="menu-footer-menu" class="footer-nav-menu">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Privacy</a></li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div>
         </div>

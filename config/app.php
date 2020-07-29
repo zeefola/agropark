@@ -14,6 +14,19 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'phone_ikoyi' => '+234 906 282 2257',
+    'phone_celias' => '+234 701 212 1096',
+    'phone_london' => '(+01) 123 456 7890',
+    'email_1' => 'info@agropark.ng',
+    'email_london' => 'info@domainname.com',
+    'address_ikoyi' => '18, Udi Street, Osborne Foreshore,
+                        Ikoyi Lagos',
+    'address_celias' => 'Suite 201, Celia\'s Place, Plot 413b, Omofade Crescent, Omole Phase 1, Ikeja Lagos',
+    'address_london' => 'Kemp House 152-160 City Road, London
+                        EC1V 2NX',
+    'facebook' => 'https://web.facebook.com/agroparkng?_rdc=1&_rdr',
+    'twitter' => 'https://twitter.com/agroparkng',
+    'instagram' => 'https://www.instagram.com/agroparkng/',
 
     /*
     |--------------------------------------------------------------------------
@@ -171,6 +184,8 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
+
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
@@ -226,6 +241,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
 
     ],
 
