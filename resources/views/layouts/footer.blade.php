@@ -44,8 +44,8 @@
                                     </div>
                                 </div>
                                 <div class="featured-title">
-                                    <h5>Mon – Sat 07:00 – 21:00</h5>
-                                    <h4>We are open on</h4>
+                                    <h5>Mon – Fri 08:00am – 5:00pm</h5>
+                                    <h4>We are open</h4>
                                 </div>
                             </div><!-- featured-icon-box end-->
                         </aside>

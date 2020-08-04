@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Agropark'),
     'phone_ikoyi' => '+234 906 282 2257',
     'phone_celias' => '+234 701 212 1096',
     'phone_london' => '(+01) 123 456 7890',
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Africa/Lagos',
 
     /*
     |--------------------------------------------------------------------------

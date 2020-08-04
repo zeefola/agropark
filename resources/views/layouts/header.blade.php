@@ -5,7 +5,7 @@
                     <div class="ttm-topbar-content">
                         <ul class="top-contact text-left">
                             <li><i class="themifyicon ti-location-pin"></i>{{ config('app.address_ikoyi') }}</li>
-                            <li><i class="themifyicon ti-timer"></i>Mon - Sat 8.00 - 18.00. Sunday CLOSED</li>
+                            <li><i class="themifyicon ti-timer"></i>Mon - Fri 8.00 - 17.00</li>
                         </ul>
                         <div class="topbar-right text-right">
                             <div class="ttm-social-links-wrapper list-inline">
@@ -14,7 +14,7 @@
                                     </li>
                                     <li><a href=" {{ config('app.twitter') }} "><i class="fa fa-twitter"></i></a>
                                     </li>
-                                    <li><a href=" {{ config('app.instaram') }} "><i class="fa fa-instagram"></i></a>
+                                    <li><a href=" {{ config('app.instagram') }} "><i class="fa fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -32,8 +32,8 @@
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">
-                                    <a class="home-link" href="index.html" title="Delmont" rel="home">
-                                        <img id="logo-img" class="img-center" src="images/logo-img.png" alt="logo-img">
+                                    <a class="home-link" href="/" title="Agropark" rel="home">
+                                        <img id="logo-img" class="img-center" src="/images/logo.png" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <!--site-navigation -->
@@ -129,16 +129,16 @@
                                         <i class="fa fa-hospital-o"></i>
                                     </div>
                                     <div class="header-content">
-                                        <h3>Number 1 Hospital</h3>
-                                        <p>In United States</p>
+                                        <h3>Number 1 Agri Hub</h3>
+                                        <p>In Nigeria</p>
                                     </div>
                                 </div>
                                 <div class="header-widget">
                                     <div class="header-icon">
-                                        <i class="fa fa-user-md"></i>
+                                        <i class="fa fa-user"></i>
                                     </div>
                                     <div class="header-content">
-                                        <h3>Personal Cabinet</h3>
+                                        <h3>24/7 Client Support</h3>
                                         <p>Qualified Staff</p>
                                     </div>
                                 </div>
@@ -147,14 +147,14 @@
                                         <i class="fa fa-thumbs-o-up"></i>
                                     </div>
                                     <div class="header-content">
-                                        <h3>Get Result Online</h3>
-                                        <p>Satisfied Patients</p>
+                                        <h3>Green Revolution</h3>
+                                        <p>Extensive R&D</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- ttm-info-widget end -->
                             <div class="ttm-contact">
-                                <span class="icon"><i class="fa fa-phone"></i></span>Toll Free : {{ config('app.phone_ikoyi') }}
+                                <span class="icon"><i class="fa fa-phone"></i></span>Call Us : {{ config('app.phone_ikoyi') }}
                             </div>
                         </div>
                     </div>

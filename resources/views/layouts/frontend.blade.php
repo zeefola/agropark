@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="HTML5 Template" />
 <meta name="description" content="Boldman Infostack &raquo; Comments Feed HTML Template" />
-<meta name="author" content="https://www.themetechmount.com/" />
+<meta name="author" content="/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Delmont &#8211; Medical, Health and Hospital Html Template</title>
+<title> @yield('title') </title>
 
 <!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.png" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
 
 <!-- bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
@@ -60,7 +60,7 @@
     <div class="page">
 
         <!-- preloader start -->
-        @includeIf("layouts.preloader")
+        <!-- @includeIf("layouts.preloader") -->
         <!-- preloader end -->
 
         <!--header start-->
