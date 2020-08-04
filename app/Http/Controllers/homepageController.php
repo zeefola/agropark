@@ -53,4 +53,14 @@ class homepageController extends Controller
         return back();
 
     }
+
+    public function aboutUs(){
+      return view('about');
+    }
+
+    public function ourTeam(){
+
+      $datas = \App\Repositories\Team::getTeam();
+      return view('team')->with('datas' , $datas);
+    }
 }
