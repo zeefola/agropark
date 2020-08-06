@@ -33,7 +33,7 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
                     <div class="featured-thumbnail">
-                        <img class="img-fluid" src="{{$data->managements->featured_thumbnail}}" alt="image"> 
+                        <img class="img-fluid" src="{{ $data->thumbnail }} " alt="image"> 
                     </div> 
                     <div class="ttm-box-view-overlay">
                         <div class="featured-iconbox ttm-media-link">
@@ -44,11 +44,11 @@
                         </div>
                     </div>
                     <div class="featured-content featured-content-team">
-                        <div class="ttm-team-position">{{ $data->managements->position }}</div>
+                        <div class="ttm-team-position">{{ $data->position }}</div>
                         <div class="featured-title">
                             <h5>
                                  <a href="#" target="_blank">
-                                 {{ $data->managements->fullname }}
+                                 {{ $data->fullname }}
                                  </a>
                             </h5>
                            

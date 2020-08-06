@@ -1,0 +1,48 @@
+
+          .owl-carousel.owl-loaded {
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 200px; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.client-box {
+    text-align: center;
+    margin: 2px 10px;
+}
+
+
+.client-box.ttm-box-view-separator-logo .client-thumbnail::after {
+    border-right: 1px solid transparent;
+    
+}
+
+
+.client-box .ttm-client-logo-tooltip {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 800px){
+    .client-box{
+        margin: 0.5rem;
+        width: 45%;
+    }
+
+    .client-box .ttm-client-logo-tooltip {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .client-thumbnail img{
+        width: 100%;
+    }
+
+    .client-box .ttm-client-logo-tooltip .client-thumbnail {
+    padding: 0px;
+        position: relative;
+    }
+}

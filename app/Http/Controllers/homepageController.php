@@ -63,4 +63,28 @@ class homepageController extends Controller
       $datas = \App\Repositories\Team::getTeam();
       return view('team')->with('datas' , $datas);
     }
+
+    public function partners(){
+      return view('partners');
+    }
+
+    public function gallery(){
+      return view('gallery');
+    }
+
+    public function bulletin(){
+      return view('bulletin');
+    }
+
+    public function brochure(){
+      return view('brochure');
+    }
+
+    public function faq(){
+      return view('faq');
+    }
+
+    public function graduateTrainee(){
+      return view('graduate-trainee');
+    }
 }

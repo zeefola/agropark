@@ -20,6 +20,12 @@ Route::get('/', function () {
 Route::get('/contact-us' , 'homepageController@contactUs');
 Route::get('/about-us' , 'homepageController@aboutUs');
 Route::get('/our-team' , 'homepageController@ourTeam');
+Route::get('/partners' , 'homepageController@partners');
+Route::get('/gallery' , 'homepageController@gallery');
+Route::get('/bulletin' , 'homepageController@bulletin');
+Route::get('/brochure' , 'homepageController@brochure');
+Route::get('/faq' , 'homepageController@faq');
+Route::get('/graduate-trainee' , 'homepageController@graduateTrainee');
 
 
 Route::post('/contact-us' , 'homepageController@contactusConfirm');

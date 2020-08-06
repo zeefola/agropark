@@ -71,58 +71,58 @@
                             </ul>
                         </div>
                         <!-- <div class="ttm_sign_image-wrapper mb-25 res-991-mb-0">
-                                    <img src="images/dr-sign.png" alt="ttm_single_image-wrapper">
-                                </div> -->
+                                        <img src="images/dr-sign.png" alt="ttm_single_image-wrapper">
+                                    </div> -->
                         <!-- <div class="sep_holder_box pt-25 mb-45 res-991-mb-20">
-                                    <span class="sep_holder"><span class="sep_line"></span></span>
-                                </div> -->
+                                        <span class="sep_holder"><span class="sep_line"></span></span>
+                                    </div> -->
                         <!-- <div class="row"> -->
                         <!-- <div class="col-md-4 col-sm-12"> -->
                         <!--featured-icon-box-->
                         <!-- <div class="featured-icon-box icon-box-heading-only left-icon">
-                                            <div class="featured-icon">
-                                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
-                                                    <i class="fa fa-calendar"></i>
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
+                                                        <i class="fa fa-calendar"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h5>Online Appointment!</h5>
+                                                <div class="featured-content">
+                                                    <div class="featured-title">
+                                                        <h5>Online Appointment!</h5>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div> -->
+                                            </div> -->
                         <!-- featured-icon-box end-->
                         <!-- </div> -->
                         <!-- <div class="col-md-4 col-sm-12"> -->
                         <!--featured-icon-box-->
                         <!-- <div class="featured-icon-box icon-box-heading-only left-icon">
-                                            <div class="featured-icon">
-                                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
-                                                    <i class="fa fa-map-marker"></i>
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
+                                                        <i class="fa fa-map-marker"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h5>Available at Your Location</h5>
+                                                <div class="featured-content">
+                                                    <div class="featured-title">
+                                                        <h5>Available at Your Location</h5>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div> -->
+                                            </div> -->
                         <!-- featured-icon-box end-->
                         <!-- </div> -->
                         <!-- <div class="col-md-4 col-sm-12"> -->
                         <!--featured-icon-box-->
                         <!-- <div class="featured-icon-box icon-box-heading-only left-icon">
-                                            <div class="featured-icon">
-                                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
-                                                    <i class="fa fa-clock-o"></i>
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md"> 
+                                                        <i class="fa fa-clock-o"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h5>Work Improvements</h5>
+                                                <div class="featured-content">
+                                                    <div class="featured-title">
+                                                        <h5>Work Improvements</h5>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div> -->
+                                            </div> -->
                         <!-- featured-icon-box end-->
                         <!-- </div> -->
                         <!-- </div> -->

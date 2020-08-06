@@ -53,6 +53,8 @@
     <!-- responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
+     <!-- partners -->
+     <link rel="stylesheet" type="text/css" href="css/partners.css" />
 </head>
 
 <body>
