@@ -28,7 +28,12 @@ Route::get('/faq' , 'homepageController@faq');
 Route::get('/graduate-trainee' , 'homepageController@graduateTrainee');
 
 
+Route::post('/graduate-trainee' , 'homepageController@graduateTraineeConfirm');
 Route::post('/contact-us' , 'homepageController@contactusConfirm');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 

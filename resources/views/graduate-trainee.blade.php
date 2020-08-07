@@ -19,7 +19,7 @@
 
                 <div class="comment-respond">
                    
-                    <form action="/graduate-trainee" method="post" id="commentform" class="comment-form">
+                    <form action="/graduate-trainee" method="post" id="commentform">
 
                         {{ csrf_field() }}
 
@@ -32,9 +32,12 @@
                                                 <label for="inputGroupSelect01" class="input-group-text" style="color: rgb(146, 117, 125); font-size: 0.9rem;">Title</label>
                                             </div>
                                             
-                                            <select class="form-control" v-model="formData.title">
-                                                <option selected disabled>Select Title</option>
-                                                <option v-for="(title, index) in titles" :key="index+'title'" :value="title"> {{ title }}</option>
+                                            <select class="form-control" name="title">
+                                                <option value=" ">Select Title</option>
+                                                <option value="mr"> Mr </option>
+                                                <option value="mrs"> Mrs </option>
+                                                <option value="miss"> Miss </option>
+                                                
                                             </select>
                                         </div>
                                     </div>
@@ -44,14 +47,14 @@
 
                             <div class="col-lg-6">
                                 <p class="comment-form-author">
-                                    <input  placeholder="Surname"  type="text" v-model="formData.surname">
+                                    <input  placeholder="Surname"  type="text" name="surname">
                                 </p>
                             </div>
 
 
                             <div class="col-lg-6">
                                 <p class="comment-form-author">
-                                    <input  placeholder="Other Names"  type="text" v-model="formData.other_names">
+                                    <input  placeholder="Other Names"  type="text" name="other_names">
                                 </p>
                             </div>
 
@@ -64,9 +67,10 @@
                                                 <label for="inputGroupSelect01" class="input-group-text" style="color: rgb(146, 117, 125); font-size: 0.9rem;">Gender</label>
                                             </div>
                                             
-                                            <select class="form-control" v-model="formData.gender">
-                                                <option selected disabled>Select Gender</option>
-                                                <option v-for="(gender, index) in genders" :key="index+'gender'" :value="gender"> {{ gender }}</option>
+                                            <select class="form-control" name="gender">
+                                                <option value=" ">Select Gender</option>
+                                                <option value="male"> Male </option>
+                                                <option value="female"> Female </option>
                                             </select>
                                         </div>
                                     </div>
@@ -77,13 +81,13 @@
 
                             <div class="col-lg-6">
                                 <p class="comment-form-author">
-                                    <input  placeholder="Age"  type="number" v-model="formData.age">
+                                    <input  placeholder="Age"  type="text" name="age">
                                 </p>
                             </div>
 
                             <div class="col-lg-6">
                                 <p class="comment-form-author">
-                                    <input  placeholder="Course Of Study"  type="text" v-model="formData.course_of_study">
+                                    <input  placeholder="Course Of Study"  type="text" name="course">
                                 </p>
                             </div>
 
@@ -95,9 +99,14 @@
                                                 <label for="inputGroupSelect01" class="input-group-text" style="color: rgb(146, 117, 125); font-size: 0.9rem;">Highest Qualification</label>
                                             </div>
                                             
-                                            <select class="form-control" v-model="formData.qualification">
-                                                <option selected disabled>Select Qualification</option>
-                                                <option v-for="(qualification, index) in qualifications" :key="index+'qualification'" :value="qualification"> {{ qualification }}</option>
+                                            <select class="form-control" name="qualification">
+                                                <option value=" ">Select Qualification</option>
+                                                <option value="undergraduate">  Undergraduate </option>
+                                                <option value="ond"> OND </option>
+                                                <option value="hnd">  HND </option>
+                                                <option value="bsc"> BSC  </option>
+                                                <option value="msc"> MSC </option>
+                                                <option value="phd">  PHD </option>
                                             </select>
                                         </div>
                                     </div>
@@ -109,20 +118,20 @@
 
                             <div class="col-lg-6">
                                  <p class="comment-form-email">
-                                    <input placeholder="Email" v-model="formData.email" type="email" >
+                                    <input placeholder="Email" name="email" type="email" >
                                 </p>
                             
                             </div>
 
                             <div class="col-lg-6">
                                  <p class="comment-form-email">
-                                    <input placeholder="Telephone" v-model="formData.telephone" type="tel" >
+                                    <input placeholder="Telephone" name="phone" type="tel" >
                                 </p>
                             </div>
 
                             <div class="col-lg-6">
                                 <p class="comment-form-email">
-                                    <input placeholder="State" v-model="formData.state" type="text" >
+                                    <input placeholder="State" name="state" type="text" >
                                 </p>
                             </div>
                             <div class="col-lg-12">
@@ -132,18 +141,27 @@
                                             <div class="input-group-prepend">
                                                 <label for="inputGroupSelect01" class="input-group-text" style="color: rgb(146, 117, 125); font-size: 0.9rem;">Area Of Interest</label>
                                             </div>
-                                            <select class="form-control" v-model="formData.area_of_interest">
-                                                <option selected disabled>Select Area of Interest</option>
-                                                <option v-for="(interest, index) in area_of_interests" :key="index+'interest'" :value="interest"> {{ interest }}</option>
+                                            <select class="form-control" name="interest">
+                                                <option value=" ">Select Area of Interest</option>
+                                                <option value="crop_production"> Crop Production </option>
+                                                <option value="agro_processing"> Agro Processing </option>
+                                                <option value="agricultural_technology"> Agricultural Technology </option>
+                                                <option value="farm_administration"> Farm Administration </option>
+                                                <option value="livestock_production"> Livestock Production </option>
+                                                <option value="animal_nutrition_and_feed_production"> Animal Nutrition And Feed Production </option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                {!! NoCaptcha::renderJs() !!}
+                                {!! NoCaptcha::display() !!}
+                            </div>
                         </div>
                         <p class="comment-notes">By submitting this form, you admit to the full understanding that Agro Park internship programme is not a full employment and you are ready to abide by the rules and regulations during the duration of your internship at Agro Park. </p>
                         <p class="form-submit">
-                            <input type="button" @click.prevent="submit('SUBMIT_GRADUATE_TRAINEE_FORM')" class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor" value="Submit Form">
+                            <input type="submit" class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor" value="Submit Form">
                         </p>
                     </form>
                 </div>

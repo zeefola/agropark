@@ -15,6 +15,17 @@ class CreateGraduateTraineesTable extends Migration
     {
         Schema::create('graduate_trainees', function (Blueprint $table) {
             $table->id();
+            $table->string('title')->nullable;
+            $table->string('surname')->nullable;
+            $table->string('other_names')->nullable;
+            $table->string('gender')->nullable;
+            $table->string('age')->nullable;
+            $table->string('course')->nullable;
+            $table->string('qualification')->nullable;
+            $table->string('email')->nullable;
+            $table->string('phone')->nullable;
+            $table->string('state')->nullable;
+            $table->string('interest')->nullable;
             $table->timestamps();
         });
     }

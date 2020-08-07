@@ -87,4 +87,35 @@ class homepageController extends Controller
     public function graduateTrainee(){
       return view('graduate-trainee');
     }
+
+    public function graduateTraineeConfirm(){
+     // Validate the input
+      $this->validate( request() , array(
+         'title' => 'required',
+         'surname' => 'required',
+         'other_names' => 'required',
+         'gender' => 'required',
+         'age' => 'required',
+         'course' => 'required',
+         'qualification' => 'required',
+         'email' => 'required|email',
+         'phone' => 'required',
+         'state' => 'required',
+         'interest' => 'required',
+         'g-recaptcha-response' => 'required|captcha'
+
+      ));
+
+      return request()->all();
+
+
+     // Save input into the database
+
+
+     // Store input into data
+
+
+     // Send message to the admin
+
+    }
 }
