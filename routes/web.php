@@ -13,10 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/' , 'homepageController@welcome');
 Route::get('/contact-us' , 'homepageController@contactUs');
 Route::get('/about-us' , 'homepageController@aboutUs');
 Route::get('/our-team' , 'homepageController@ourTeam');
@@ -26,6 +24,14 @@ Route::get('/bulletin' , 'homepageController@bulletin');
 Route::get('/brochure' , 'homepageController@brochure');
 Route::get('/faq' , 'homepageController@faq');
 Route::get('/graduate-trainee' , 'homepageController@graduateTrainee');
+Route::get('/poultry-subscription' , 'homepageController@poultrySubscription');
+Route::get('/fishery-subscription' , 'homepageController@fisherySubscription');
+Route::get('/farmland-subscription' , 'homepageController@farmlandSubscription');
+Route::get('/cashcrop-subscription' , 'homepageController@cashcropSubscription');
+Route::get('/asset-management' , 'homepageController@assetManagement');
+Route::get('/agribusiness-academy' , 'homepageController@agribusinessAcademy');
+
+
 
 
 Route::post('/graduate-trainee' , 'homepageController@graduateTraineeConfirm');

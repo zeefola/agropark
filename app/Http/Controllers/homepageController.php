@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 use App\contact_history;
+use App\graduate_trainee;
 use Mail;
 use Illuminate\Http\Request;
 
 class homepageController extends Controller
 {
+    public function welcome(){
+      return view('welcome');
+    } 
+   
     public function contactUs(){
       return view('contact-us');
     }
@@ -106,16 +111,60 @@ class homepageController extends Controller
 
       ));
 
-      return request()->all();
-
+      // return request()->all();
 
      // Save input into the database
 
+     $db_data = new graduate_trainee();
+     $db_data->title = request()->title;
+     $db_data->surname = request()->surname;
+     $db_data->other_names = request()->other_names;
+     $db_data->gender = request()->gender;
+     $db_data->age = request()->age;
+     $db_data->course = request()->course;
+     $db_data->qualification = request()->qualification;
+     $db_data->email = request()->email;
+     $db_data->phone = request()->phone;
+     $db_data->state = request()->state;
+     $db_data->interest = request()->interest;
+     $db_data->save();
 
      // Store input into data
 
 
+
+
      // Send message to the admin
 
+     session()->flash('success_report' , 'Form submitted successfully');
+     return back();
+
     }
+
+    public function poultrySubscription(){
+      return view('poultry-subscription');
+    }
+
+    public function fisherySubscription(){
+      return view('fishery-subscription');
+    }
+
+    public function farmlandSubscription(){
+      return view('farmland-subscription');
+    }
+
+    public function cashcropSubscription(){
+      return view('cashcrop-subscription');
+    }
+
+    public function assetManagement(){
+      return view('asset-management');
+    }
+
+    public function agribusinessAcademy(){
+      return view('academy');
+    }
+
+
+
 }

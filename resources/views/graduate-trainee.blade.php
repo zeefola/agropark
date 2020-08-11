@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-     Our Team | {{ config('app.name') }}
+    Graduate Trainee | {{ config('app.name') }}
 @endsection
 
 @section('breadcrumb')
@@ -13,6 +13,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="mb-35">
+                    @includeIf('layouts.error_template')
                     <h2 class="ttm-textcolor-skincolor ">Application Form</h2>
                     <p>Agro-Park Graduate Trainee Program (GTP) 2020 is a 6-month intensive program. Also, note that the training takes place on the farm estate.</p>
                 </div>

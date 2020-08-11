@@ -35,7 +35,7 @@
                 <div class="col-md-4 ttm-box-col-wrapper">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper mb-25">
-                        <img class="img-fluid" src="images/single-img-seven.jpg" alt="">
+                        <img class="img-fluid" src="/images/celias.png" alt="">
                     </div><!-- ttm_single_image-wrapper end -->
                     <h4>Omole Office</h4>
                     <div class="sep_holder_box width-100">
@@ -169,8 +169,8 @@
                     <div class="ttm-timelistbox-wrapper pt-10 res-991-mt-50">
                         <div class="ttm-timelistbox-block-wrapper">
                             <ul class="ttm-timelistbox-block">
-                                <li>Monday - Friday<span class="service-time">09:00 - 17:00</span></li>
-                                <li>Saturday<span class="service-time">09:00 - 17:00</span></li>
+                                <li>Monday - Friday<span class="service-time">08:00 - 17:00</span></li>
+                                <li>Saturday<span class="service-time">Closed</span></li>
                                 <li>Sunday<span class="service-time">Closed</span></li>
                             </ul>
                         </div>

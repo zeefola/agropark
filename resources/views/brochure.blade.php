@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-     Our Team | {{ config('app.name') }}
+     Brochure | {{ config('app.name') }}
 @endsection
 
 @section('breadcrumb')

@@ -2,7 +2,7 @@
 
 
 @section('title')
-     Homepage | {{ config('app.name') }}
+     Agricultural Property Managers | {{ config('app.name') }}
 @endsection
 
 @section("slider")
