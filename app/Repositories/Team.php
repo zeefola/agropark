@@ -16,7 +16,7 @@ class Team{
                     'featured_image' => '/images/1.png', //dimension 480px x 515px
                     'info' => (object) [
                         
-                        'overview' => ' <p>Sola Olunowo, is a graduate of the University of Ibadan, He has extensive experience in Business Development and Project Management. Sola has managed, trained and supported end user platforms for over 24 years. He has worked with many international organizations with best global practices managing large complex implementation programs.</p><p>He has a pragmatic, logical and analytical approach to all aspects of work and fosters a ‘can do’ team spirit, a “self-starter”, and “self-motivated” Project Manager, experienced in leading multi-disciplinary teams.</p>',
+                        'overview' => '<p>Sola Olunowo, is a graduate of the University of Ibadan, He has extensive experience in Business Development and Project Management. Sola has managed, trained and supported end user platforms for over 24 years. He has worked with many international organizations with best global practices managing large complex implementation programs.</p><p>He has a pragmatic, logical and analytical approach to all aspects of work and fosters a ‘can do’ team spirit, a “self-starter”, and “self-motivated” Project Manager, experienced in leading multi-disciplinary teams.</p>',
                         'overview_image' => '',
                     ],
                 ],
